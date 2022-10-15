@@ -5,7 +5,8 @@ import Form from "./components/Form";
 const App = () => {
   return (
     <div className="App">
-      <Form />
+      {/* <Form password="ugum53" variant="text" /> */}
+      <Form password="POYGPS" variant="graphical" />
     </div>
   );
 };

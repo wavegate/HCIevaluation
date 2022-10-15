@@ -1,5 +1,7 @@
+@use "./styles/colors";
+
 .App {
-  background: #f4f4f4;
+  background: colors.$near-white;
   height: 100vh;
   width: 100vw;
 }

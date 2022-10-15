@@ -1,12 +1,13 @@
 import TextField from "@mui/material/TextField";
 
-const TextPassword = () => {
+const TextPassword = (props) => {
   return (
     <TextField
-      id="filled-password-input"
       label="Password"
       type="password"
-      variant="filled"
+      onChange={props.onChange}
+      name="password"
+      autoFocus
     />
   );
 };

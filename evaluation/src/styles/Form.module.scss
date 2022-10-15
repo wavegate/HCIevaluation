@@ -1,6 +1,4 @@
 .Form {
-  display: flex;
-  flex-direction: column;
   width: 400px;
   background: white;
   padding: 30px;
@@ -9,5 +7,10 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
   gap: 12px;
 }

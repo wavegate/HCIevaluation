@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "simple-statistics": "^7.7.6"
+  },
+  "name": "hcievaluation",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wavegate/HCIevaluation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wavegate/HCIevaluation/issues"
+  },
+  "homepage": "https://github.com/wavegate/HCIevaluation#readme",
+  "description": ""
+}
